@@ -13,6 +13,11 @@ public class PlayerController : MonoBehaviour
         controlVector = context.ReadValue<Vector2>();
     }
 
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        print("hi");
+    }
+
     public void FixedUpdate()
     {
         rb.linearVelocity = controlVector * speed;
