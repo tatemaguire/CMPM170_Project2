@@ -7,15 +7,21 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb;
     public float speed;
 
+    public Color[] colors;
+
     Grid grid;
     Tilemap tilemap;
     
     private Vector2 controlVector;
 
+    Color currentColor;
+
     public void Start()
     {
         grid = FindAnyObjectByType<Grid>();
         tilemap = FindAnyObjectByType<Tilemap>();
+
+        pickNewColor();
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -35,10 +41,22 @@ public class PlayerController : MonoBehaviour
 
         if (targetTile != null)
         {
+            //allow tile color to be edited, then edit tile color
             tilemap.SetTileFlags(tilePos, TileFlags.None);
+            tilemap.SetColor(tilePos, currentColor);
 
-            tilemap.SetColor(tilePos, Color.red);
+            //give player new random color
+            pickNewColor();
         }
+    }
+
+    void pickNewColor()
+    {
+        int index = Random.Range(0, colors.Length);
+
+        print(index);
+
+        currentColor = colors[index];
     }
 
     public void FixedUpdate()
