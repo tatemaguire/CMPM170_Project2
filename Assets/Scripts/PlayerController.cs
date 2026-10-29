@@ -5,6 +5,7 @@ using UnityEngine.Tilemaps;
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public SpriteRenderer currentTileInicator;
     public float speed;
 
     public Color[] colors;
@@ -57,6 +58,8 @@ public class PlayerController : MonoBehaviour
         print(index);
 
         currentColor = colors[index];
+
+        currentTileInicator.color = currentColor;
     }
 
     public void FixedUpdate()
