@@ -40,7 +40,8 @@ public class PlayerController : MonoBehaviour
 
         TileBase targetTile = tilemap.GetTile(tilePos);
 
-        if (targetTile != null)
+        //this code counts on the color set on the tilemap being exactly white
+        if (targetTile != null && tilemap.GetColor(tilePos) == Color.white)
         {
             //allow tile color to be edited, then edit tile color
             tilemap.SetTileFlags(tilePos, TileFlags.None);
@@ -54,8 +55,6 @@ public class PlayerController : MonoBehaviour
     void pickNewColor()
     {
         int index = Random.Range(0, colors.Length);
-
-        print(index);
 
         currentColor = colors[index];
 
