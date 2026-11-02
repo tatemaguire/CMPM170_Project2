@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
@@ -9,9 +10,12 @@ public class PlayerController : MonoBehaviour
     public float speed;
 
     public Color[] colors;
+    public Color highlightColor;
+    public Color neutralHighlight;
+    public PlayerController opponent;
 
-    Grid grid;
-    Tilemap tilemap;
+    [DoNotSerializeAttribute] public Grid grid;
+    [DoNotSerializeAttribute] public Tilemap tilemap;
     
     private Vector2 controlVector;
 
@@ -41,14 +45,19 @@ public class PlayerController : MonoBehaviour
         TileBase targetTile = tilemap.GetTile(tilePos);
 
         //this code counts on the color set on the tilemap being exactly white
-        if (targetTile != null && tilemap.GetColor(tilePos) == Color.white)
+        if (targetTile != null && (tilemap.GetColor(tilePos) == highlightColor 
+            || tilemap.GetColor(tilePos) == neutralHighlight))
         {
+            
+            highlightAjacentTiles(tilePos);
+            
             //allow tile color to be edited, then edit tile color
             tilemap.SetTileFlags(tilePos, TileFlags.None);
             tilemap.SetColor(tilePos, currentColor);
 
             //give player new random color
             pickNewColor();
+
         }
     }
 
@@ -59,6 +68,39 @@ public class PlayerController : MonoBehaviour
         currentColor = colors[index];
 
         currentTileInicator.color = currentColor;
+    }
+
+    void highlightAjacentTiles(Vector3Int tilePos)
+    {
+        Vector3Int[] directions = 
+            { 
+                new Vector3Int(1, 0, 0),
+                new Vector3Int(1, 1, 0),
+                new Vector3Int(0, 1, 0), 
+                new Vector3Int(-1, 1, 0), 
+                new Vector3Int(-1, 0, 0), 
+                new Vector3Int(-1, -1, 0), 
+                new Vector3Int(0, -1, 0),
+                new Vector3Int(1, -1, 0),
+            };
+
+        for (int i = 0; i < directions.Length; i++)
+        {
+            Vector3Int adjacentTilePos = tilePos + directions[i];
+
+            //print(adjacentTilePos);
+
+            if(tilemap.GetColor(adjacentTilePos) == Color.white)
+            {
+                tilemap.SetTileFlags(adjacentTilePos, TileFlags.None);
+                tilemap.SetColor(adjacentTilePos, highlightColor);
+            }
+            else if (tilemap.GetColor(adjacentTilePos) == opponent.highlightColor)
+            {
+                tilemap.SetTileFlags(adjacentTilePos, TileFlags.None);
+                tilemap.SetColor(adjacentTilePos, neutralHighlight);
+            }
+        }
     }
 
     public void FixedUpdate()

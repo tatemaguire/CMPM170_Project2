@@ -177,6 +177,11 @@ MonoBehaviour:
   currentTileInicator: {fileID: 5910886425029171188}
   speed: 8
   colors: []
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
+  neutralHighlight: {r: 0.7497571, g: 1, b: 0, a: 1}
+  opponent: {fileID: 0}
+  grid: {fileID: 0}
+  tilemap: {fileID: 0}
 --- !u!114 &7211194224358753424
 MonoBehaviour:
   m_ObjectHideFlags: 0
