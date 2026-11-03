@@ -27,11 +27,15 @@ public class PlayerController : MonoBehaviour
 
     Color currentColor;
 
-    public void Start()
+    public void Awake()
     {
         grid = FindAnyObjectByType<Grid>();
         tilemap = FindAnyObjectByType<Tilemap>();
+    }
 
+    public void Start()
+    {
+        
         GiveTile();
     }
 
