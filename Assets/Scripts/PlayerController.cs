@@ -54,6 +54,7 @@ public class PlayerController : MonoBehaviour
         TileBase targetTile = tilemap.GetTile(tilePos);
 
         //only highlighted tiles (this player's or shared) can be placed on
+        //this code counts on the color set on the tilemap being exactly white
         if (targetTile != null && (tilemap.GetColor(tilePos) == highlightColor 
             || tilemap.GetColor(tilePos) == neutralHighlight))
         {
@@ -67,6 +68,9 @@ public class PlayerController : MonoBehaviour
             //either empty the player's hand or give them a new tile right away
             if (usePickupArea) ClearTile();
             else GiveTile();
+
+            //give player new random color
+            //pickNewColor();
         }
     }
 
