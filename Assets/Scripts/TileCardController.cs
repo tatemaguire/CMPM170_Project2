@@ -40,14 +40,12 @@ public class TileCardController : MonoBehaviour
             sr.color = Color.red;
             currentState = State.RED;
             redPoints += pointValue;
-            print(redPoints);
         }
         if (p2Inside && (kb.enterKey.wasPressedThisFrame || kb.numpadEnterKey.wasPressedThisFrame))
         {
             sr.color = new Color(0.05f, 0.40f, 1f);
             currentState = State.BLUE;
             bluePoints += pointValue;
-            print(bluePoints);
         }
     }
 }
