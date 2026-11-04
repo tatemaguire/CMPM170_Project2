@@ -179,6 +179,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument Icon (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -252,6 +260,14 @@ PrefabInstance:
     - target: {fileID: 4651530153695138741, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Name
       value: Monument Icon (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
@@ -338,6 +354,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument Icon (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -415,6 +439,14 @@ PrefabInstance:
     - target: {fileID: 4651530153695138741, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Name
       value: Monument Icon (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
@@ -538,6 +570,14 @@ PrefabInstance:
     - target: {fileID: 4651530153695138741, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Name
       value: Monument Icon (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
@@ -1553,6 +1593,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument Icon (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1735,6 +1783,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument Icon (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1758,6 +1814,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1002793504}
+  - component: {fileID: 1002793505}
   - component: {fileID: 1002793503}
   - component: {fileID: 1002793502}
   m_Layer: 0
@@ -1820,10 +1877,10 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
@@ -1838,12 +1895,72 @@ Transform:
   m_GameObject: {fileID: 1002793501}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.61, y: 0.04, z: 0}
-  m_LocalScale: {x: 7, y: 10, z: 1}
+  m_LocalPosition: {x: 9.127, y: 0.0752, z: 0}
+  m_LocalScale: {x: 5.965733, y: 9.553945, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1002793505
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002793501}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 2117f896bea4ef644929981336f1491c, type: 3}
+  m_Color: {r: 0.6051381, g: 0.76443875, b: 0.8867924, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!1001 &1085664753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1903,6 +2020,14 @@ PrefabInstance:
     - target: {fileID: 4651530153695138741, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Name
       value: Monument Icon (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
@@ -2347,6 +2472,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument Icon (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2370,6 +2503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1787178239}
+  - component: {fileID: 1787178241}
   - component: {fileID: 1787178238}
   - component: {fileID: 1787178240}
   m_Layer: 0
@@ -2416,10 +2550,10 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
@@ -2434,8 +2568,8 @@ Transform:
   m_GameObject: {fileID: 1787178237}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.66, y: 0.04, z: 0}
-  m_LocalScale: {x: 7, y: 10, z: 1}
+  m_LocalPosition: {x: -9.29, y: 0.06, z: 0}
+  m_LocalScale: {x: 6.028754, y: 9.233234, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2456,6 +2590,66 @@ MonoBehaviour:
   areaSprite: {fileID: 0}
   readyColor: {r: 1, g: 1, b: 1, a: 0.5}
   busyColor: {r: 1, g: 1, b: 1, a: 0.2}
+--- !u!212 &1787178241
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787178237}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 2117f896bea4ef644929981336f1491c, type: 3}
+  m_Color: {r: 1, g: 0.51257855, b: 0.51257855, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!1001 &1831892616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2519,6 +2713,14 @@ PrefabInstance:
     - target: {fileID: 4651530153695138741, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Name
       value: Monument Icon (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 5.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 5.76
       objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
@@ -2728,6 +2930,14 @@ PrefabInstance:
     - target: {fileID: 4651530153695138741, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Name
       value: Monument Icon  2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 5.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753414089362335711, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 5.76
       objectReference: {fileID: 0}
     - target: {fileID: 7143945697198738152, guid: 07ddcbddab6945a4c881ccd15bb4d29b, type: 3}
       propertyPath: m_Sprite
