@@ -3,8 +3,19 @@ using UnityEngine.InputSystem;
 
 public class TileCardController : MonoBehaviour
 {
+    public enum State
+    {
+        AVAILABLE, RED, BLUE
+    }
+
+    [SerializeField] private int pointValue = 3;
+
+    [HideInInspector] public State currentState = State.AVAILABLE;
     bool p1Inside, p2Inside;
     SpriteRenderer sr;
+
+    [HideInInspector] public static int redPoints = 0;
+    [HideInInspector] public static int bluePoints = 0;
 
     void Awake() { sr = GetComponent<SpriteRenderer>(); }
 
@@ -19,11 +30,25 @@ public class TileCardController : MonoBehaviour
 
     void Update()
     {
-         var kb = Keyboard.current;
+        Keyboard kb = Keyboard.current;
+
         if (kb == null) return;
-        if (p1Inside && kb.spaceKey.wasPressedThisFrame) sr.color = Color.red;
+        if (currentState != State.AVAILABLE) return;
+
+        if (p1Inside && kb.spaceKey.wasPressedThisFrame) 
+        {
+            sr.color = Color.red;
+            currentState = State.RED;
+            redPoints += pointValue;
+            print(redPoints);
+        }
         if (p2Inside && (kb.enterKey.wasPressedThisFrame || kb.numpadEnterKey.wasPressedThisFrame))
+        {
             sr.color = new Color(0.05f, 0.40f, 1f);
+            currentState = State.BLUE;
+            bluePoints += pointValue;
+            print(bluePoints);
+        }
     }
 }
 
