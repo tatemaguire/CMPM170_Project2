@@ -17,7 +17,12 @@ public class TileCardController : MonoBehaviour
     [HideInInspector] public static int redPoints = 0;
     [HideInInspector] public static int bluePoints = 0;
 
-    void Awake() { sr = GetComponent<SpriteRenderer>(); }
+    void Awake() 
+    {
+        sr = GetComponent<SpriteRenderer>(); 
+        redPoints = 0;
+        bluePoints = 0;
+    }
 
     void OnTriggerEnter2D(Collider2D c) { Track(c, true); }
     void OnTriggerExit2D(Collider2D c) { Track(c, false); }
